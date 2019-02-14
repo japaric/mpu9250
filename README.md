@@ -1,27 +1,9 @@
 # `mpu9250`
 
-> A WIP, no_std, generic driver for the MPU9250 (accelerometer + gyroscope + magnetometer IMU)
+This crate has been **DEPRECATED** in favor of [copterust/mpu9250] and will
+receive no further updates or bug fixes.
 
-## What works
-
-- Reading the accelerometer, gyroscope and temperature sensor
-- Reading the WHO_AM_I register
-
-## TODO
-
-- [x] Access to magnetometer data
-- [x] Make sure this works with the `spidev` crate (i.e. with the Raspberry Pi)
-- [ ] Configuration. e.g. selecting the accelerometer sensing range.
-- [ ] How to make the API compatible with device specific features like DMA?
-- [ ] Sensor fusion?
-- ???
-
-## Examples
-
-You should find at least one example in the [blue-pill] repository. If that branch is gone, check
-the master branch.
-
-[blue-pill]: https://github.com/japaric/blue-pill/tree/singletons/examples
+[copterust/mpu9250]: https://github.com/copterust/mpu9250
 
 ## License
 
